@@ -160,7 +160,7 @@
 }
 
 .mindset {
-    background: linear-gradient(to right, orange, white), url(../images/watch.png);
+    background: linear-gradient(to right, purple, white), url(../images/watch.png);
     background-blend-mode: overlay;
     /* background-image: url(../images/watch.png); */
     background-repeat: no-repeat;
@@ -203,4 +203,111 @@
     border: 0;
     margin-top: 24px;
     margin-bottom: 59px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background: #151414;
+    background-repeat: no-repeat;
+    /* width: 1600px;*/
+    height: 577px;
+    background-size: cover;
+    margin-top: 47px;
+    color: #F8F8F8;
+
+}
+
+.footer-info {
+    display: flex;
+    /* padding-left: 230px; */
+    /* padding-right: 230px; */
+    padding-top: 130px;
+}
+
+.footer-future-title {
+    width: 148px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+
+}
+
+.footer-future-info {
+    padding-top: 16px;
+    width: 485px;
+    height: 78px;
+    line-height: 26px;
+
+}
+
+#email {
+    padding-top: 24px;
+    width: 184px;
+    height: 26px;
+
+}
+
+#phone {
+    padding-top: 16px;
+
+}
+
+.follow-icons {
+    padding-top: 32px;
+
+}
+
+.follow-icons img {
+    margin-right: 17px;
+}
+
+.footer-subscribe {
+    margin-left: 331px;
+
+}
+
+#subscribe {
+    width: 123px;
+    height: 29px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    padding-bottom: 31px;
+}
+
+.form-contact {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#email-input {
+    background: #151414;
+    ;
+    width: 325px;
+    height: 64px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    border: 1px solid #FFFFFF;
+    color: #F3F3F3;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    text-align: left;
+
+}
+
+#subscribe-button {
+    width: 170px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F15B22;
+    background: #FFFFFF;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 16px;
 }
