@@ -16,7 +16,8 @@
 
     /* background-size: cover; */
 }
-.banner{
+
+.banner {
     padding-right: 230px;
     padding-top: 216px;
 }
@@ -60,6 +61,7 @@
     margin-top: 130px;
     display: flex;
     justify-content: center;
+
 }
 
 .failures-this-year {
@@ -86,13 +88,14 @@
 .failure-info {
     line-height: 26px;
     width: 416px;
+    height: 104px;
     color: #444343;
     margin-bottom: 16px;
 }
 
 .contrary-beliefs p {
 
-    
+
     margin-bottom: 8px;
     color: #444343;
 }
@@ -126,6 +129,78 @@
     margin-right: auto;
 
 }
-.my-goals{
+
+.my-goals {
     margin-left: 86px;
+
+}
+
+.my-goals-title {
+    margin-top: 24px;
+    width: 270px;
+    height: 35px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.my-goals-container {
+    display: flex;
+    justify-content: center;
+}
+
+.my-goals-description {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+
+.mindset {
+    background: linear-gradient(to right, orange, white), url(../images/watch.png);
+    background-blend-mode: overlay;
+    /* background-image: url(../images/watch.png); */
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    margin-top: 125px;
+    display: flex;
+    align-items: center;
+}
+
+.mindset-info {
+    padding-top: 59px;
+    padding-left: 60px;
+}
+
+.mindset-title {
+    width: 459px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.mindset-button {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    width: 88px;
+    height: 23px;
+    color: #F15B22;
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    border: 0;
+    margin-top: 24px;
+    margin-bottom: 59px;
 }
