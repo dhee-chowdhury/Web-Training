@@ -4,14 +4,21 @@
 }
 
 .header {
-    /* height: 809px; */
-    width: 1600px;
-    height: 809px;
+    /* max-height: 809px; */
     background-image: url(../images/banner/banner2.png);
     background-repeat: no-repeat;
-
-
     background-size: cover;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    /* flex-direction: column; */
+
+
+    /* background-size: cover; */
+}
+.banner{
+    padding-right: 230px;
+    padding-top: 216px;
 }
 
 
@@ -21,10 +28,7 @@
     font-weight: 700;
     font-size: 65px;
     line-height: 76px;
-    text-align: right;
     color: #151414;
-    padding-top: 216px;
-    padding-left: 845px;
     padding-bottom: 24px;
 
 }
@@ -32,12 +36,9 @@
 .banner-info {
     width: 494px;
     height: 78px;
-    font-size: 16px;
-    font-weight: 400;
     line-height: 26px;
-    text-align: right;
+    /* text-align: right; */
     color: #444343;
-    padding-left: 876px;
     padding-bottom: 32px;
 }
 
@@ -51,14 +52,14 @@
     font-size: 20px;
     line-height: 23px;
     color: #FFFFFF;
-    margin-left: 1210px;
+    margin-bottom: 167px;
 }
 
 
 .main-info {
     margin-top: 130px;
-    margin-left: 206px;
-    margin-bottom: 130px;
+    display: flex;
+    justify-content: center;
 }
 
 .failures-this-year {
@@ -89,8 +90,9 @@
     margin-bottom: 16px;
 }
 
-.contrary-beliefs li {
+.contrary-beliefs p {
 
+    
     margin-bottom: 8px;
     color: #444343;
 }
@@ -99,13 +101,15 @@
     text-align: center;
     display: flex;
     align-items: center;
+
 }
 
 .my-plans {
-    width: 1141px;
+    max-width: 1141px;
     height: 300px;
     margin-top: 130px;
-    margin-left: 230px;
+    margin-left: auto;
+    margin-right: auto;
 
 
 }
@@ -118,6 +122,8 @@
     line-height: 47px;
     text-align: center;
     margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .my-goals{
